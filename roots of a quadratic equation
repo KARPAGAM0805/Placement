@@ -1,0 +1,27 @@
+# Placement
+//roots of a equation
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the values of a,b,c of a equation");
+       double a=sc.nextDouble();
+       double b=sc.nextDouble();
+       double c=sc.nextDouble();
+      
+       double determinant=(b*b)-(4*a*c);
+       double sqrt=Math.sqrt(determinant);
+       System.out.println( +sqrt);
+       System.out.println( +determinant);
+       if(determinant>0){
+           System.out.println("first root"+((-b+sqrt)/2*a));
+            System.out.println("second root"+((-b-sqrt)/2*a));
+           
+       }
+       else if(determinant==0){
+           System.out.println("root is"+(-b/2*a));
+           
+       }
+       }}
