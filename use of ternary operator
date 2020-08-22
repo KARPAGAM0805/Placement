@@ -1,0 +1,17 @@
+# Placement
+//ternary operator
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the values");
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+      
+       String str=(a>b)?"a is big":"b is big";
+       System.out.println(str);
+      }
+    
+}
