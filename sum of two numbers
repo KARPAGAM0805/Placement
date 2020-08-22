@@ -1,0 +1,16 @@
+# Placement
+//average of three numbers
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the three numbers");
+       float  a= sc.nextFloat();
+       float  b= sc.nextFloat();
+       float  c= sc.nextFloat();
+       System.out.println("average of three numbers is"+((a+b+c)/3));
+      }
+    
+}
