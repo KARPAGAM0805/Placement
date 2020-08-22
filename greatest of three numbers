@@ -1,0 +1,35 @@
+//greatest of two numbers 
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+        int a,b,c;
+        System.out.println("enter the numbers");
+        Scanner sc=new Scanner(System.in);
+         a=sc.nextInt();
+         b=sc.nextInt();
+         c=sc.nextInt();
+        if(a>b)
+        {
+            if(a>c){
+                System.out.println( a+ "  is greatest");
+            }
+            else{
+                System.out.println(c+ "  is greatest");
+            }
+          }
+        else
+        {
+            if(b>c)
+            {
+                System.out.println(b+ " is greatest");
+            }
+            else{
+                System.out.println(c+"  is greatest");
+            }
+        }
+        
+    }
+    
+}
