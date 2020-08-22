@@ -1,0 +1,20 @@
+# Placement
+//area and perimeter of a rectangle
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the values of l and b");
+       float l=sc.nextFloat();
+       float b=sc.nextFloat();
+       float perimeter = 2*(l+b);
+       float area=l*b;
+       
+      
+       
+      System.out.println("the perimeter and area is  "+perimeter+" , "+area);
+      }
+    
+}
