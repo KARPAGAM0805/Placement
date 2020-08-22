@@ -1,0 +1,21 @@
+# Placement
+//greater than hundred or not
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the value");
+       int age=sc.nextInt();
+       if(age>100){
+           System.out.println("yes >100");
+           
+       }else{
+           System.out.println(" not >100");
+       }
+       
+     
+      }
+    
+}
