@@ -1,0 +1,14 @@
+# Placement
+//use of tobinarystring function
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter a number");
+       int no=sc.nextInt();
+       System.out.println(Integer.toBinaryString(no));
+       
+       }
+}
