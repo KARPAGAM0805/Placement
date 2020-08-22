@@ -1,0 +1,15 @@
+# Placement
+//celcius to farenheit
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the c value");
+       float  c= sc.nextFloat();
+      
+       System.out.println("The farenheit value is"+(((c*9)/5)+32));
+      }
+    
+}
