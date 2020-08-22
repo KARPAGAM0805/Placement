@@ -1,0 +1,20 @@
+# Placement
+//area and perimeter of a sqaure
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the values of l ");
+       float l=sc.nextFloat();
+       
+       float perimeter = 4*l;
+       float area=l*l;
+       
+      
+       
+      System.out.println("the perimeter and area is  "+perimeter+" , "+area);
+      }
+    
+}
