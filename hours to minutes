@@ -1,0 +1,15 @@
+# Placement
+//hours to minutes
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the hour");
+       float  a= sc.nextFloat();
+       
+       System.out.println("The eqivalent minutes value is"+(a*60));
+      }
+    
+}
