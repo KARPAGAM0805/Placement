@@ -1,0 +1,16 @@
+# Placement
+//simple interest
+import java.util.Scanner;
+public class Karpagam {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("enter the principle,rate of interest,no of years");
+       float  p= sc.nextFloat();
+       float  n= sc.nextFloat();
+       float  r= sc.nextFloat();
+       System.out.println("The simple interest is"+((p*n*r)/100));
+      }
+    
+}
