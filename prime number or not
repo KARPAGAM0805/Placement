@@ -1,0 +1,33 @@
+# Placement
+//prime number or not 
+import java.util.Scanner;
+
+public class Placement {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int no=sc.nextInt();
+        int c=0;
+       if((no<=1)){
+           System.out.println("not a prime number");
+       }
+       else{
+           for(int i=2;i<(no/2);i++){
+               if(no%i==0){
+                   c=c+1;
+               }
+           }
+       
+       if(c>=1){
+           System.out.println("Not a Prime number");
+       }
+       else if(c==0){
+        System.out.println("Prime number");
+    }
+       }
+    }
+    
+}
