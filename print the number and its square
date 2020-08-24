@@ -1,0 +1,19 @@
+# Placement
+//print the number and its square
+import java.util.Scanner;
+
+public class Placement {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a number");
+        int no=sc.nextInt();
+        for(int i=1;i<=no;i++){
+            System.out.println(i+" , "+"its square"+i*i);
+        }
+        
+    }
+    
+}
