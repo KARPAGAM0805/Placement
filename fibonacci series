@@ -1,0 +1,42 @@
+# Placement
+//fibonacci series
+import java.util.Scanner;
+
+public class Placement {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc=new Scanner(System.in);
+        int sum=0;
+        System.out.println("enter the starting number");
+        int no1=sc.nextInt();
+        int a=0,b=1,c;
+        for(int i=0;i<=(no1-1);i++){
+            c=a+b;
+            a=b;
+            b=c;
+            System.out.println(c);
+           
+            
+            
+        }
+      
+    }
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
