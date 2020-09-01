@@ -1,0 +1,81 @@
+# Placement
+//addition of unit digits
+import java.util.Scanner;
+
+public class Placement {
+
+   public static int unitdigit(int num1,int num2){
+       int result=0;
+       int last1,last2;
+       if(num1>0 & num2>0){
+           last1 = num1 %10;
+           last2 = num2 %10;
+           result=num1+num2;
+           
+       }
+       else if(num1<0 & num2>0)
+       {
+           
+           int nnum1= -(num1);
+           int nnum2=num2;
+           last1=nnum1%10;
+           last2=nnum2%10;
+           result=last1+last2;
+       
+       }
+       else if(num1>0 & num2<0)
+       
+       {
+            int mnum1= num1;
+            int mnum2= -(num2);
+            last1= mnum1%10;
+            last2= mnum2%10;
+            result=last1+last2;
+            
+        }
+       else if(num1<0 & num2<0){
+           int knum1= -(num1);
+           int knum2= -(num2);
+           last1= knum1%10;
+           last2= knum2%10;
+           result=last1+last2;
+           
+           
+           
+       }
+       
+       
+       
+       
+       return result;
+   }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num1,num2;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the numbers");
+        num1=sc.nextInt();
+        num2=sc.nextInt();
+        int result=0;
+        result=unitdigit(num1,num2);
+        System.out.println(result);
+        
+        
+    }
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
