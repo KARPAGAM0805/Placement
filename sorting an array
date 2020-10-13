@@ -1,0 +1,54 @@
+# Placement
+//sorting an array
+import java.util.Scanner;
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class Placement {
+   
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+         //String str[]=new String[8];
+         //String str[]={"k","a","r","p","a","g","a","m"};
+         int [] str = new int[] { 7,10,4,8,9};
+         int len=str.length;
+         int i,j,maxind,temp;
+         for(i=0;i<len;i++){
+             maxind=i;
+             for(j=i+1;j<len;j++){
+                 
+                 if(str[j]>str[maxind])
+                     maxind=j;
+                 
+             }
+             temp=str[maxind];
+             str[maxind]=str[i];
+             str[i]=temp;
+             
+         }
+         for(i=0;i<len;i++){
+                 System.out.print(str[i]);
+         }
+         System.out.println();
+         
+        }
+       
+        }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+    
+
+        
+        
+      
