@@ -1,0 +1,46 @@
+# Placement
+//octal to decimal
+import java.util.Scanner;
+
+
+public class Placement {
+   
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+         int bno=sc.nextInt();
+         int rem,deci=0,base=1;
+         
+         while(bno>0){
+             rem=bno%10;
+             deci=deci+rem*base;
+             base=base*8;
+             bno=bno/10;
+             
+             
+             
+             
+         }
+         System.out.println(deci);
+        
+        }
+       
+        }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        
+    
+
+        
+        
+      
